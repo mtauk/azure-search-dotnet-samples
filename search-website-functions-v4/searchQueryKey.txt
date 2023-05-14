@@ -1,0 +1,28 @@
+PS C:\Data\CS_Code\QuickStart\azure-search-dotnet-samples> New-AzSearchQueryKey
+
+cmdlet New-AzSearchQueryKey at command pipeline position 1
+Supply values for the following parameters:
+(Type !? for Help.)
+ResourceGroupName: cognitive-search-website-tutorial
+ServiceName: book-search-svc
+Name: search-query-key
+
+Name             Key
+----             ---
+search-query-key LEkwmr8lCh6Gag0Cc633x0psx3T1jnuYWdwPoMxNOgAzSeBzqrz2
+
+-----------------------------------------------------------------------------
+
+PS C:\Data\CS_Code\QuickStart\azure-search-dotnet-samples> Get-AzSearchAdminKeyPair
+
+cmdlet Get-AzSearchAdminKeyPair at command pipeline position 1
+Supply values for the following parameters:
+(Type !? for Help.)
+ResourceGroupName: cognitive-search-website-tutorial
+ServiceName: book-search-svc
+
+Primary                                              Secondary
+-------                                              ---------
+HH2bQu2vwWJUtJ3aGUtHoKHbIjloi6P9WbTSU0MQxGAzSeAD4u0L sS4wDgVvC1l6YBLWWgLaiSAsWWlj46mabGqjr8yhu6AzSeC3aDRk
+
+-------------------------------------------------------------------------------------
